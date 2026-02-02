@@ -1,0 +1,34 @@
+{
+  "name": "mcp-client",
+  "version": "1.0.0",
+  "description": "MCP Client designed to connect with n8n MCP servers via SSE with OpenAI integration",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "chat": "node chat.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "n8n",
+    "openai",
+    "sse",
+    "rag",
+    "agent",
+    "llm",
+    "workflow-automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "eventsource": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
